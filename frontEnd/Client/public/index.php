@@ -3,6 +3,7 @@
     define('APP_INTERFACE','../../../backEnd/Server/App/Name2Ids/Name2IdsInterface/Name2Ids_Interface.php');
     define('APP','../../../backEnd/Server/App/Name2Ids/Name2IdsClass/Name2Ids.php');
     define('AJAX','../../../backEnd/Server/App/AjaxDevelomentWithPhp/Ajax.php');
+    define('HTML_APPS','../../../backEnd/Server/App/HtmlApps/HtmlApps.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -17,10 +18,18 @@
     </head>
     <body>
         <script src="https://kit.fontawesome.com/51765d8f2a.js" crossorigin="anonymous"></script>
+        <?php
+        
+            require_once(HTML_APPS);
+            $nav = new HtmlApps;
+            $nav->createApp(HtmlApps::drow_down_nav_bar());
+            $nav->executeApp();
+        
+        ?>
         <header>
-            <h2>Name2Ids : Arranque Rapido y Ligero.</h2>
-            <h3>Que te gustar&iacute;a cambiar de lo que ves ?</h3>
-            <h4>Te gustaria saber como ?</h4>
+            <h2 class="questions">Name2Ids : Arranque Rapido y Ligero.</h2>
+            <h2 class="questions">Que te gustar&iacute;a cambiar de lo que ves ?</h2>
+            <h2 class="questions">Te gustaria saber como ?</h2>
         </header>
         <?php
         

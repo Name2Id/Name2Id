@@ -68,3 +68,14 @@ h5 {
     border-radius: 6px;
     color: #fff;
 }
+.nav,header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.questions {
+    width: 30%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
