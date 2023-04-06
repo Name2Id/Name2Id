@@ -19,7 +19,7 @@
         <script src="https://kit.fontawesome.com/51765d8f2a.js" crossorigin="anonymous"></script>
         <header>
             <h2>Name2Ids : Arranque Rapido y Ligero.</h2>
-            <h3>Que tegustaria cambiar de lo que ves ?</h3>
+            <h3>Que te gustar&iacute;a cambiar de lo que ves ?</h3>
             <h4>Te gustaria saber como ?</h4>
         </header>
         <?php
