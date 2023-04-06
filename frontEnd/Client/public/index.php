@@ -27,7 +27,7 @@
         
         ?>
         <header>
-            <h2 class="questions">Name2Ids : Arranque Rapido y Ligero.</h2>
+            <h2 class="questions">Name2Ids : Arranque Rapido , Ligero y con metodos en 2 idiomas.</h2>
             <h2 class="questions">Que te gustar&iacute;a cambiar de lo que ves ?</h2>
             <h2 class="questions">Te gustaria saber como ?</h2>
         </header>
