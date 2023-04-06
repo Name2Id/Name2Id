@@ -17,6 +17,11 @@
     </head>
     <body>
         <script src="https://kit.fontawesome.com/51765d8f2a.js" crossorigin="anonymous"></script>
+        <header>
+            <h2>Name2Ids : Arranque Rapido y Ligero.</h2>
+            <h3>Que tegustaria cambiar de lo que ves ?<h3>
+            <h4>Te gustaria saber como ?</h4>
+        </header>
         <?php
         
             require_once(APP_INTERFACE);
@@ -31,5 +36,13 @@
             );
         
         ?>
+        <footer>
+            <h3>&copy; Ramiro G Glez. Name2Ids</h3>
+            <p>
+                Tener la capacidad de cambiar t&uacute; <br>
+                realidad a luntad es asombroso ! , Pero ...<br>
+                Hacerlo instantaneamente es algo que no tiene precio.
+            </p>
+        </footer>
     </body>
 </html>
