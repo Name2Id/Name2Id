@@ -47,11 +47,11 @@
         ?>
         <footer>
             <h3>&copy; Ramiro G Glez. Name2Ids</h3>
-            <p>
+            <h3><p>
                 Tener la capacidad de cambiar t&uacute; <br>
                 realidad a voluntad es asombroso ! , Pero ...<br>
                 Hacerlo instantaneamente es algo que no tiene precio.
-            </p>
+            </p></h3>
         </footer>
     </body>
 </html>

@@ -16,41 +16,41 @@ class HtmlApps {
                 <li>
                     <a href=''>Name2Ids</a>
                     <ul>
-                        <li>__construct ();</li>
-                        <li>__construir ();</li>
-                        <li>get ();</li>
-                        <li>obtener ();</li>
-                        <li>increase ();</li>
-                        <li>incrementar ();</li>
-                        <li>incrementAndprintTheCounter ();</li>
-                        <li>incrementaEimprimeElContador ();</li>
-                        <li>printsCounter ();</li>
-                        <li>imprimeContador ();</li>
-                        <li>create_card (\$class);</li>
-                        <li>crear_tarjeta (\$clase);</li>
-                        <li>print_card (\$card);</li>
-                        <li>imprime_tarjeta (\$tarjeta);</li>
-                        <li>add_card (\$card);</li>
-                        <li>agregar_tarjeta (\$tarjeta);</li>
-                        <li>subtract ();</li>
-                        <li>restar ();</li>
+                        <li><a href=''>__construct ();</a></li>
+                        <li><a href=''>__construir ();</a></li>
+                        <li><a href=''>get ();</a></li>
+                        <li><a href=''>obtener ();</a></li>
+                        <li><a href=''>increase ();</a></li>
+                        <li><a href=''>incrementar ();</a></li>
+                        <li><a href=''>incrementAndprintTheCounter ();</a></li>
+                        <li><a href=''>incrementaEimprimeElContador ();</a></li>
+                        <li><a href=''>printsCounter ();</a></li>
+                        <li><a href=''>imprimeContador ();</a></li>
+                        <li><a href=''>create_card (\$class);</a></li>
+                        <li><a href=''>crear_tarjeta (\$clase);</a></li>
+                        <li><a href=''>print_card (\$card);</a></li>
+                        <li><a href=''>imprime_tarjeta (\$tarjeta);</a></li>
+                        <li><a href=''>add_card (\$card);</a></li>
+                        <li><a href=''>agregar_tarjeta (\$tarjeta);</a></li>
+                        <li><a href=''>subtract ();</a></li>
+                        <li><a href=''>restar ();</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href=''>Ajax</a>
                     <ul>
-                        <li>mainBlockHtmlTag ();</li>
-                        <li>buttonHtmlTag ();</li>
-                        <li>scriptHtmlTag ();</li>
-                        <li>printAll (\$all);</li>
+                        <li><a href=''>mainBlockHtmlTag ();</a></li>
+                        <li><a href=''>buttonHtmlTag ();</a></li>
+                        <li><a href=''>scriptHtmlTag ();</a></li>
+                        <li><a href=''>printAll (\$all);</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href=''>HtmlApps</a>
                     <ul>
-                        <li>createApp (\$app);</li>
-                        <li>executeApp ();</li>
-                        <li>drow_down_nav_bar ();</li>
+                        <li><a href=''>createApp (\$app);</a></li>
+                        <li><a href=''>executeApp ();</a></li>
+                        <li><a href=''>drow_down_nav_bar ();</a></li>
                     </ul>
                 </li>
             </ul>
