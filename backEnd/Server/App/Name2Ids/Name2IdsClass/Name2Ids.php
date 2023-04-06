@@ -73,7 +73,7 @@ class Name2Ids implements Name2IdsI {
                 <h5>card number <i class="fa-solid fa-hashtag"></i> '.
                 $this->get().'</h5>
                 <figure>
-                    <img src="./img/Name2Ids.avif">
+                    <img src="./img/Name2Ids.png">
                 </figure>
                 <div class="contenido">
                     <h2>block id <i class="fa-solid fa-arrow-down"></i></h2>'.

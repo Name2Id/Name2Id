@@ -26,7 +26,7 @@ class Ajax {
         function replaceText () {
             var target = document.getElementById('main');
             var xhr = new XMLHttpRequest();
-            xhr.open('GET','../../../backEnd/Server/App/AjaxDevelomentWithPhp/title.txt',true);
+            xhr.open('GET','../../../backEnd/Server/App/AjaxDevelomentWithPhp/title.html',true);
             xhr.onreadystatechange = function () {
                 console.log('readyState: ' + xhr.readyState);
                 if (xhr.readyState == 2) {
