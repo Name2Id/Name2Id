@@ -10,15 +10,138 @@
 </head>
 <body>
 <script src="https://kit.fontawesome.com/51765d8f2a.js" crossorigin="anonymous"></script>
-<div id="main"><i class="fa-regular fa-face-surprise"></i></div>
+<div id="main" class="container">
+    <div class="card">
+        <figure>
+            <h3>WELCOME !</h3>
+        </figure>
+        <div class="contenido">
+            <h2><i class="fa-solid fa-door-open"></i></h2>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="card">
+        <div class="contenido">
+        <button id="ajax-button" type="button" style="cursor:pointer;" title="CLICK ME !">
+            <i class="fa-solid fa-play"></i>
+        </button>
+        </div>
+    </div>
+</div>
 <?php
 
 require './View/pages/Self.php';
 
 ?>
-<button id="ajax-button" type="button" style="cursor:pointer;" title="CLICK ME !">
-<i class="fa-solid fa-play"></i>
-</button>
+<div class="container">
+    <div class="card">
+        <figure>
+            <div>
+                <figure>
+                    <h2>
+                        get ();
+                    </h2>
+                </figure>
+                <div class="contenido">
+                    <h2>
+                        obtener ();
+                    </h2>
+                </div>
+            </div>
+            <div>
+                <figure>
+                    <h2>
+                    increase ();
+                    </h2>
+                </figure>
+                <div class="contenido">
+                    <h2>
+                    incrementar ();
+                    </h2>
+                </div>
+            </div>
+            <div>
+                <figure>
+                    <h2>
+                    printsCounter ();
+                    </h2>
+                </figure>
+                <div class="contenido">
+                    <h2>
+                    imprimeContador ();
+                    </h2>
+                </div>
+            </div>
+        </figure>
+        <div class="contenido">
+            <div>
+                <figure>
+                    <h2>
+                    create_card ($class);
+                    </h2>
+                </figure>
+                <div class="contenido">
+                    <h2>
+                    crear_tarjeta ($clase);
+                    </h2>
+                </div>
+            </div>
+            <div>
+                <figure>
+                    <h2>
+                    print_card ($card);
+                    </h2>
+                </figure>
+                <div class="contenido">
+                    <h2>
+                    imprime_tarjeta ($tarjeta);
+                    </h2>
+                </div>
+            </div>
+            <div>
+                <figure>
+                    <h2>
+                    add_card ($card);
+                    </h2>
+                </figure>
+                <div class="contenido">
+                    <h2>
+                    agregar_tarjeta ($tarjeta);
+                    </h2>
+                </div>
+            </div>
+            <div>
+                <figure>
+                    <h2>
+                    subtract ();
+                    </h2>
+                </figure>
+                <div class="contenido">
+                    <h2>
+                    restar ();
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div>
+    <figure>
+        <h2>
+        incrementAndprintTheCounter ();
+        </h2>
+    </figure>
+    <div class="contenido">
+        <h2>
+        incrementaEimprimeElContador ();
+        </h2>
+    </div>
+</div>
+
+
 <script>
     function replaceText () {
         var target = document.getElementById('main');
