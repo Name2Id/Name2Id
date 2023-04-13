@@ -1,6 +1,6 @@
 <?php
 
-interface Name2IdsI {
+interface InterfaceN2d {
     #private int $the_counter_and_the_accumulator = 0; 
     #private int $el_contador_y_el_acumulador = 0; 
     public function __construct ();

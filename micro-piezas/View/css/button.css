@@ -1,0 +1,16 @@
+#ajax-button {
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    transition: all 400ms ease;
+}
+#ajax-button:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+#ajax-button {
+    padding: 10px;
+    background-color: #6a6a6a;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+}
