@@ -16,16 +16,42 @@
             <h3>WELCOME !</h3>
         </figure>
         <div class="contenido">
-            <h2><i class="fa-solid fa-door-open"></i></h2>
+            <button id="ajax-button" type="button" style="cursor:pointer;" title="CLICK ME !">
+            <i class="fa-solid fa-door-open"></i>
+            </button>
         </div>
     </div>
 </div>
 <div class="container">
     <div class="card">
         <div class="contenido">
-        <button id="ajax-button" type="button" style="cursor:pointer;" title="CLICK ME !">
-            <i class="fa-solid fa-play"></i>
-        </button>
+            <h3>Funciones <i class="fa-solid fa-arrow-down"></i></h3>
+        </div>
+        <div class="contenido">
+            <div>
+                <figure>
+                    <h2>
+                        __construct ();
+                    </h2>
+                </figure>
+                <div class="contenido">
+                    <h2>
+                        __construir ();
+                    </h2>
+                </div>
+            </div>
+            <div>
+                <figure>
+                    <h2>
+                    incrementAndprintTheCounter ();
+                    </h2>
+                </figure>
+                <div class="contenido">
+                    <h2>
+                    incrementaEimprimeElContador ();
+                    </h2>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -126,21 +152,6 @@ require './View/pages/Self.php';
         </div>
     </div>
 </div>
-
-
-<div>
-    <figure>
-        <h2>
-        incrementAndprintTheCounter ();
-        </h2>
-    </figure>
-    <div class="contenido">
-        <h2>
-        incrementaEimprimeElContador ();
-        </h2>
-    </div>
-</div>
-
 
 <script>
     function replaceText () {

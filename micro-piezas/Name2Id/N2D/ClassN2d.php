@@ -77,7 +77,7 @@ class ClassN2d {
                      '<p>'.$hash_id_md5.'</p>'.
                      '<h3>object id <i class="fa-solid fa-arrow-down"></i></h3>'.
                      '<p>'.$hash_id_sha256.'</p>'.
-                     '<h4>class name <i class="fa-solid fa-arrow-right"></i>'.
+                     '<h4>class name <i class="fa-solid fa-arrow-right"></i> '.
                      get_class($class).'</h4>
                  </div>
              </div>
@@ -104,7 +104,7 @@ class ClassN2d {
                      '<p>'.$hash_id_md5.'</p>'.
                      '<h3>id del objeto <i class="fa-solid fa-arrow-down"></i></h3>'.
                      '<p>'.$hash_id_sha256.'</p>'.
-                     '<h4>nombre de la clase <i class="fa-solid fa-arrow-right"></i>'.
+                     '<h4>nombre de la clase <i class="fa-solid fa-arrow-right"></i> '.
                      get_class($clase).'</h4>
                  </div>
              </div>
