@@ -10,6 +10,9 @@
 </head>
 <body>
 <script src="https://kit.fontawesome.com/51765d8f2a.js" crossorigin="anonymous"></script>
+<header>
+    <h1>Name2Id</h1>
+</header>
 <div id="main" class="container">
     <div class="card">
         <figure>
@@ -152,7 +155,11 @@ require './View/pages/Self.php';
         </div>
     </div>
 </div>
-
+<footer>
+    <h3>
+        &copy; Name2Id - RAMIRO G GONZALEZ - 2023 - <i class="fa-solid fa-infinity" style="color:gold;"></i>.
+    </h3>
+</footer>
 <script>
     function replaceText () {
         var target = document.getElementById('main');
