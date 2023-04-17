@@ -198,3 +198,93 @@ restar(): resta 1 al valor del contador (en español).
 En resumen, esta interfaz especifica los métodos que se deben implementar para una clase que maneje 
 un contador y permita crear y manejar tarjetas de presentación.
 </pre></p>
+
+<h2>Sugerencia sobre posibles mejoras a la clase Name2Id segun chatGpt</h2>
+<p><pre>
+Aquí hay algunas sugerencias para mejorar el código:
+
+Agregar comentarios más descriptivos y en inglés para que sea más fácil para otros desarrolladores entender lo que hace cada función y método.
+
+Cambiar el nombre de los métodos get() y obtener() a algo más descriptivo, como getCounter() y getAcumulator().
+
+Evitar duplicación de código al crear las tarjetas en los métodos create_card() y crear_tarjeta(). Podría haber un método privado que genere los hashes y otro método público que llame al método privado y cree la tarjeta.
+
+Cambiar la forma en que se crean los hashes en los métodos create_card() y crear_tarjeta() para que sean más seguros. En lugar de usar la función hash(), se debería usar una función de hash criptográfico más seguro, como password_hash().
+
+Cambiar el nombre de las variables $the_counter_and_the_accumulator y $el_contador_y_el_acumulador a algo más descriptivo, como $counter y $acumulator.
+
+Ser coherente con el estilo de codificación en todo el código. Por ejemplo, en algunas partes se usa la convención de nomenclatura camelCase y en otras snake_case.
+
+Aquí hay una versión mejorada del código con las sugerencias mencionadas anteriormente:
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+<?php
+
+class ClassN2d {
+    
+    private int $counter = -1;
+    private int $acumulator = -1;
+    
+    public function __construct() {
+        $this->counter = 0;
+        $this->__build();
+    }
+    
+    private function __build() {
+        $this->acumulator = 0;
+    }
+    
+    public function getCounter() {
+        return $this->counter;
+    }
+    
+    public function getAcumulator() {
+        return $this->acumulator;
+    }
+    
+    public function increase() {
+        $this->counter += 1;
+    }
+    
+    public function incrementar() {
+        $this->acumulator = $this->getAcumulator() + 1;
+    }
+    
+    public function incrementAndPrintCounter() {
+        $this->increase();
+        echo $this->getCounter();
+    }
+    
+    public function incrementaEImprimeAcumulador() {
+        $this->incrementar();
+        echo $this->getAcumulator();
+    }
+    
+    public function printsCounter() {
+        echo $this->getCounter();
+    }
+    
+    public function imprimeAcumulador() {
+        echo $this->getAcumulator();
+    }
+    
+    public function createCard($class) {
+        $hash_id_md5 = password_hash(get_class($class), PASSWORD_DEFAULT);
+        $hash_id_sha256 = password_hash($this->getCounter(), PASSWORD_DEFAULT);
+        $this->increase();
+        
+        $card = '
+            <section class="container">
+                <div class="card">
+                    <h5>card number <i class="fa-solid fa-hashtag"></i> '.$this->getCounter().'</h5>
+                    <figure>
+                        <img src="./View/img/blue.png">
+                    </figure>
+                    <div class="contenido">
+                        <h2>block id <i class="fa-solid fa-arrow-down"></i></h2>'.
+                        '<p>'.$hash_id_md5.'</p>'.
+                        '<h3>object id <i class="fa-solid fa-arrow-down"></i></h3>'.
+                        '<p>'.$hash_id_sha256.'</p
+
+</pre></p>
