@@ -11,12 +11,12 @@
 <body>
 <script src="https://kit.fontawesome.com/51765d8f2a.js" crossorigin="anonymous"></script>
 <header>
-    <h1><a href="./" style="color:#fff;">Name2Id</a></h1>
+    <h1><a href="./" style="color:#fff;">Api Rest</a></h1>
 </header>
 <div id="main" class="container">
     <div class="card">
         <figure>
-            <h3>WELCOME !</h3>
+            <h3>Api Rest Start !</h3>
         </figure>
         <div class="contenido">
             <button id="ajax-button" type="button" style="cursor:pointer;" title="CLICK ME !">
@@ -25,139 +25,15 @@
         </div>
     </div>
 </div>
-<div class="container">
-    <div class="card">
-        <div class="contenido">
-            <h3>Funciones <i class="fa-solid fa-arrow-down"></i></h3>
-        </div>
-        <div class="contenido">
-            <div>
-                <figure>
-                    <h2>
-                        __construct ();
-                    </h2>
-                </figure>
-                <div class="contenido">
-                    <h2>
-                        __construir ();
-                    </h2>
-                </div>
-            </div>
-            <div>
-                <figure>
-                    <h2>
-                    incrementAndprintTheCounter ();
-                    </h2>
-                </figure>
-                <div class="contenido">
-                    <h2>
-                    incrementaEimprimeElContador ();
-                    </h2>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 <?php
 
 require './View/pages/Self.php';
 
 ?>
-<div class="container">
-    <div class="card">
-        <figure>
-            <div>
-                <figure>
-                    <h2>
-                        get ();
-                    </h2>
-                </figure>
-                <div class="contenido">
-                    <h2>
-                        obtener ();
-                    </h2>
-                </div>
-            </div>
-            <div>
-                <figure>
-                    <h2>
-                    increase ();
-                    </h2>
-                </figure>
-                <div class="contenido">
-                    <h2>
-                    incrementar ();
-                    </h2>
-                </div>
-            </div>
-            <div>
-                <figure>
-                    <h2>
-                    printsCounter ();
-                    </h2>
-                </figure>
-                <div class="contenido">
-                    <h2>
-                    imprimeContador ();
-                    </h2>
-                </div>
-            </div>
-        </figure>
-        <div class="contenido">
-            <div>
-                <figure>
-                    <h2>
-                    create_card ($class);
-                    </h2>
-                </figure>
-                <div class="contenido">
-                    <h2>
-                    crear_tarjeta ($clase);
-                    </h2>
-                </div>
-            </div>
-            <div>
-                <figure>
-                    <h2>
-                    print_card ($card);
-                    </h2>
-                </figure>
-                <div class="contenido">
-                    <h2>
-                    imprime_tarjeta ($tarjeta);
-                    </h2>
-                </div>
-            </div>
-            <div>
-                <figure>
-                    <h2>
-                    add_card ($card);
-                    </h2>
-                </figure>
-                <div class="contenido">
-                    <h2>
-                    agregar_tarjeta ($tarjeta);
-                    </h2>
-                </div>
-            </div>
-            <div>
-                <figure>
-                    <h2>
-                    subtract ();
-                    </h2>
-                </figure>
-                <div class="contenido">
-                    <h2>
-                    restar ();
-                    </h2>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 <footer>
     <h3>
-        &copy; Name2Id - RAMIRO G GONZALEZ - 2023 - <i class="fa-solid fa-infinity" style="color:gold;"></i>.
+        &copy; Api Rest - RAMIRO G GONZALEZ - 2023 - <i class="fa-solid fa-infinity" style="color:gold;"></i>.
     </h3>
 </footer>
 <script>
