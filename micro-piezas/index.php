@@ -11,7 +11,7 @@
 <body>
 <script src="https://kit.fontawesome.com/51765d8f2a.js" crossorigin="anonymous"></script>
 <header>
-    <h1>Name2Id</h1>
+    <h1><a href="./" style="color:#fff;">Name2Id</a></h1>
 </header>
 <div id="main" class="container">
     <div class="card">
