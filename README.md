@@ -203,17 +203,27 @@ un contador y permita crear y manejar tarjetas de presentación.
 <p><pre>
 Aquí hay algunas sugerencias para mejorar el código:
 
-Agregar comentarios más descriptivos y en inglés para que sea más fácil para otros desarrolladores entender lo que hace cada función y método.
+Agregar comentarios más descriptivos y en inglés para que sea más fácil para 
+otros desarrolladores entender lo que hace cada función y método.
 
-Cambiar el nombre de los métodos get() y obtener() a algo más descriptivo, como getCounter() y getAcumulator().
+Cambiar el nombre de los métodos get() y obtener() a algo más 
+descriptivo, como getCounter() 
+y getAcumulator().
 
-Evitar duplicación de código al crear las tarjetas en los métodos create_card() y crear_tarjeta(). Podría haber un método privado que genere los hashes y otro método público que llame al método privado y cree la tarjeta.
+Evitar duplicación de código al crear las tarjetas en los métodos 
+create_card() y crear_tarjeta(). 
+Podría haber un método privado que genere los hashes y otro 
+método público que llame al método privado 
+y cree la tarjeta.
 
-Cambiar la forma en que se crean los hashes en los métodos create_card() y crear_tarjeta() para que sean más seguros. En lugar de usar la función hash(), se debería usar una función de hash criptográfico más seguro, como password_hash().
+Cambiar la forma en que se crean los hashes en los métodos create_card() 
+y crear_tarjeta() para que sean más seguros. En lugar de usar la función hash(), se debería usar una función de hash criptográfico más seguro, como password_hash().
 
-Cambiar el nombre de las variables $the_counter_and_the_accumulator y $el_contador_y_el_acumulador a algo más descriptivo, como $counter y $acumulator.
+Cambiar el nombre de las variables $the_counter_and_the_accumulator 
+y $el_contador_y_el_acumulador a algo más descriptivo, como $counter y $acumulator.
 
-Ser coherente con el estilo de codificación en todo el código. Por ejemplo, en algunas partes se usa la convención de nomenclatura camelCase y en otras snake_case.
+Ser coherente con el estilo de codificación en todo el código. 
+Por ejemplo, en algunas partes se usa la convención de nomenclatura camelCase y en otras snake_case.
 
 Aquí hay una versión mejorada del código con las sugerencias mencionadas anteriormente:
 
