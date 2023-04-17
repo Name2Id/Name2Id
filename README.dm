@@ -1,3 +1,8 @@
+<h1>Name2Id - crear y manejar tarjetas de presentación</h2>
+
+<h2>micro-piezas | index.php</h2>
+<p>
+<pre>
 Este código es una página web HTML con algunos elementos CSS y JavaScript. 
 En resumen, la página web muestra una interfaz de usuario con dos tarjetas que contienen 
 funciones y métodos de una clase de programación.
@@ -19,3 +24,5 @@ La página web termina con un pie de página que contiene información sobre los
 el autor y el año. También hay un script de JavaScript que define una función que se ejecuta cuando 
 se hace clic en el botón de la primera tarjeta. Esta función realiza una solicitud AJAX para obtener 
 un archivo HTML externo y reemplaza el contenido del contenedor principal con este archivo.
+</pre>
+</p>

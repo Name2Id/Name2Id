@@ -1,4 +1,6 @@
-Este es un código PHP que define una clase llamada ClassN2d. Esta clase tiene varios métodos que se encargan de realizar diferentes acciones, como incrementar un contador, crear y mostrar una tarjeta, y obtener valores.
+Este es un código PHP que define una clase llamada ClassN2d. Esta clase tiene varios métodos que se 
+encargan de realizar diferentes acciones, como incrementar un contador, crear y mostrar una tarjeta, 
+y obtener valores.
 
 Los métodos de la clase incluyen:
 
@@ -9,10 +11,13 @@ obtener(): Este método es equivalente a get(), y devuelve el valor del acumulad
 increase(): Este método incrementa el contador en uno.
 incrementar(): Este método incrementa el acumulador en uno.
 incrementAndprintTheCounter(): Este método incrementa el contador en uno y luego lo imprime.
-incrementaEimprimeElContador(): Este método es equivalente a incrementAndprintTheCounter(), pero para el acumulador.
+incrementaEimprimeElContador(): Este método es equivalente a incrementAndprintTheCounter(), 
+pero para el acumulador.
 printsCounter(): Este método imprime el valor del contador.
 imprimeContador(): Este método es equivalente a printsCounter(), pero para el acumulador.
-create_card(): Este método crea una tarjeta con un número de tarjeta, un identificador de bloque, un identificador de objeto y el nombre de la clase. El número de tarjeta se incrementa en uno cada vez que se llama al método.
+create_card(): Este método crea una tarjeta con un número de tarjeta, un identificador de bloque, 
+un identificador de objeto y el nombre de la clase. El número de tarjeta se incrementa en uno cada 
+vez que se llama al método.
 crear_tarjeta(): Este método es equivalente a create_card(), pero con nombres de variables en español.
 print_card(): Este método imprime una tarjeta creada por create_card().
 imprime_tarjeta(): Este método es equivalente a print_card(), pero con nombres de variables en español.
@@ -20,4 +25,6 @@ add_card(): Este método crea y luego imprime una tarjeta utilizando create_card
 agregar_tarjeta(): Este método es equivalente a add_card(), pero con nombres de variables en español.
 subtract(): Este método resta uno del contador.
 restar(): Este método es equivalente a subtract(), pero para el acumulador.
-El código utiliza nombres de variables en inglés y español, lo que puede ser confuso y dificultar la comprensión del código. Además, hay comentarios en el código en español que también pueden dificultar la comprensión para quienes no hablan el idioma.
+El código utiliza nombres de variables en inglés y español, lo que puede ser confuso y dificultar 
+la comprensión del código. Además, hay comentarios en el código en español que también pueden dificultar 
+la comprensión para quienes no hablan el idioma.

@@ -4,6 +4,8 @@ Las dos primeras constantes son:
 
 BOTHCN2D que se establece como el valor './Name2Id/N2D/ClassN2d.php'
 BOTHIN2D que se establece como el valor './Name2Id/N2D/InterfaceN2d.php'
-Estas constantes se utilizan para incluir los archivos ClassN2d.php e InterfaceN2d.php en el script PHP utilizando la función require_once() más adelante en el código.
+Estas constantes se utilizan para incluir los archivos ClassN2d.php e InterfaceN2d.php en 
+el script PHP utilizando la función require_once() más adelante en el código.
 
-Las otras constantes que están comentadas (define ('','');) se han definido pero están en blanco, probablemente para usarlas en otros lugares del código.
+Las otras constantes que están comentadas (define ('','');) se han definido pero están en blanco, 
+probablemente para usarlas en otros lugares del código.

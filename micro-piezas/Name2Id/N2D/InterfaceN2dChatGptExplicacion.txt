@@ -1,4 +1,5 @@
-Este código define una interfaz llamada InterfaceN2d que especifica un conjunto de métodos que cualquier clase que implemente esta interfaz debe tener.
+Este código define una interfaz llamada InterfaceN2d que especifica un conjunto de métodos 
+que cualquier clase que implemente esta interfaz debe tener.
 
 Los métodos definidos en la interfaz son:
 
@@ -17,7 +18,9 @@ crear_tarjeta($clase): crea una tarjeta de presentación utilizando la clase pro
 print_card($card): imprime la tarjeta de presentación proporcionada.
 imprime_tarjeta($tarjeta): imprime la tarjeta de presentación proporcionada (en español).
 add_card($card): agrega la tarjeta de presentación proporcionada a la colección de tarjetas.
-agregar_tarjeta($tarjeta): agrega la tarjeta de presentación proporcionada a la colección de tarjetas (en español).
+agregar_tarjeta($tarjeta): agrega la tarjeta de presentación proporcionada a la colección 
+de tarjetas (en español).
 subtract(): resta 1 al valor del contador.
 restar(): resta 1 al valor del contador (en español).
-En resumen, esta interfaz especifica los métodos que se deben implementar para una clase que maneje un contador y permita crear y manejar tarjetas de presentación.
+En resumen, esta interfaz especifica los métodos que se deben implementar para una clase que maneje 
+un contador y permita crear y manejar tarjetas de presentación.
