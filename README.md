@@ -217,7 +217,8 @@ método público que llame al método privado
 y cree la tarjeta.
 
 Cambiar la forma en que se crean los hashes en los métodos create_card() 
-y crear_tarjeta() para que sean más seguros. En lugar de usar la función hash(), se debería usar una función de hash criptográfico más seguro, como password_hash().
+y crear_tarjeta() para que sean más seguros. En lugar de usar la función hash(), 
+se debería usar una función de hash criptográfico más seguro, como password_hash().
 
 Cambiar el nombre de las variables $the_counter_and_the_accumulator 
 y $el_contador_y_el_acumulador a algo más descriptivo, como $counter y $acumulator.
