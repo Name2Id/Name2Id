@@ -40,7 +40,7 @@ require './View/pages/Self.php';
     function replaceText () {
         var target = document.getElementById('main');
         var xhr = new XMLHttpRequest();
-        xhr.open('GET','./View/response/welcome.html',true);
+        xhr.open('GET','./View/response/welcome.php',true);
         xhr.onreadystatechange = function () {
             console.log('readyState: ' + xhr.readyState);
             if (xhr.readyState == 2) {

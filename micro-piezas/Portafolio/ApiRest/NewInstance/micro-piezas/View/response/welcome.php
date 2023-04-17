@@ -11,7 +11,10 @@
 <div class="card">
     <div class="contenido">
         <i class="fa-solid fa-code"></i>
-            Api-Rest Program Code goes here.
+            <?php
+                require_once "../../../Classes/Conexion/Conexion.php";
+                $conexion = new Conexion;
+            ?>
         <i class="fa-solid fa-code"></i>
     </div>
 </div>
