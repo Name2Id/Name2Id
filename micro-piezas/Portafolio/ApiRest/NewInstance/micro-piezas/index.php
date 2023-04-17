@@ -13,6 +13,17 @@
 <header>
     <h1><a href="./" style="color:#fff;">Api Rest</a></h1>
 </header>
+
+<div class="card">
+    <div class="contenido">
+        <i class="fa-solid fa-code"></i>
+            Home <a href="../../../../../../../micro-piezas/" style="cursor: pointer;">
+                Ir
+            </a>
+        <i class="fa-solid fa-code"></i>
+    </div>
+</div>
+
 <div id="main" class="container">
     <div class="card">
         <figure>
@@ -31,6 +42,7 @@
 require './View/pages/Self.php';
 
 ?>
+
 <footer>
     <h3>
         &copy; Api Rest - RAMIRO G GONZALEZ - 2023 - <i class="fa-solid fa-infinity" style="color:gold;"></i>.

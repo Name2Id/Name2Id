@@ -28,9 +28,27 @@ class Conexion {
             echo "algo salio mal con la conexion !.";
             die();
         } else {
-            echo "conectado a {n2d_apiRest}";
+            #echo "conectado a {n2d_apiRest}";
         }
 
+    }
+
+    private function UTF8Converter ($array) {
+        array_walk_recursive($array,function (&$item,$key){
+            if (!mb_detect_encoding($item,'utf-8',true)) {
+                $item = utf8_encode($item);
+            }
+        });
+        return $array;
+    }
+
+    public function getData ($sqlstr) {
+        $results = $this->conexion->query($sqlstr);
+        $resultsArray = array();
+        foreach ($results as $key ) {
+            $resultsArray[] = $key;
+        }
+        return $this->UTF8Converter($resultsArray);
     }
 
 }

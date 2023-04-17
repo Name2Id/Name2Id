@@ -1,20 +1,10 @@
-<div class="card">
-    <div class="contenido">
-        <i class="fa-solid fa-code"></i>
-            Home <a href="../../../../../../../micro-piezas/" style="cursor: pointer;">
-                Ir
-            </a>
-        <i class="fa-solid fa-code"></i>
-    </div>
-</div>
-
-<div class="card">
-    <div class="contenido">
-        <i class="fa-solid fa-code"></i>
-            <?php
-                require_once "../../../Classes/Conexion/Conexion.php";
-                $conexion = new Conexion;
-            ?>
-        <i class="fa-solid fa-code"></i>
-    </div>
+<div class="container">
+    <?php
+        require_once "../../../Classes/Conexion/Conexion.php";
+        $conexion = new Conexion;
+        $query = "SELECT * FROM kftable_topics";
+        echo "<pre style='padding-left:50px;font-size:12px;color:#000;background-color:transparent;'>";
+        print_r($conexion->getData($query));
+        echo "</pre>";
+    ?>
 </div>
