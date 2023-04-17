@@ -142,7 +142,8 @@ y obtener valores.
 
 Los métodos de la clase incluyen:
 
-__construct(): Este es el constructor de la clase que inicializa el contador y llama al método __construir() para inicializar el acumulador.
+__construct(): Este es el constructor de la clase que inicializa el contador y llama al método 
+__construir() para inicializar el acumulador.
 __construir(): Este método se utiliza para inicializar el acumulador en cero.
 get(): Este método devuelve el valor del contador.
 obtener(): Este método es equivalente a get(), y devuelve el valor del acumulador.
