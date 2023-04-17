@@ -1,0 +1,20 @@
+Este código es un conjunto de estilos CSS que definen la apariencia visual de una página web. 
+Aquí hay una descripción de cada sección del código:
+
+El selector universal (*) se utiliza para aplicar los estilos a todos los elementos de la página. 
+En este caso, se establecen algunos valores predeterminados, como el margen y el relleno, y se define 
+la propiedad box-sizing como border-box para que el tamaño total del elemento incluya el borde y el relleno.
+Los selectores body, header y footer se utilizan para establecer los estilos de los elementos principales 
+de la página. Se establece una altura del 100% de la altura de la ventana (100vh), lo que significa que 
+la página siempre ocupará todo el espacio disponible. Los elementos también se centran horizontalmente y 
+verticalmente en la página mediante las propiedades justify-content y align-items. Se establece un tipo de 
+fuente sans-serif y un color de fondo.
+Los selectores header y footer establecen un color de fondo diferente al de la página principal y 
+una altura de 125px.
+Los selectores .container, .card, .card:hover, .card .contenido, .card .contenido p, .card h5, figure, 
+card img, y .card .contenido h4, h2, h3, h5 definen los estilos para los elementos dentro de 
+los encabezados y pies de página. En general, se establecen valores de ancho y altura, relleno y 
+margen, y se definen colores de fondo y texto. También se aplican efectos de sombra y transiciones 
+suaves para una apariencia visual atractiva.
+Finalmente, se define un estilo para el elemento h5 que establece un margen a la izquierda y 
+lo separa visualmente del resto del contenido del elemento.
