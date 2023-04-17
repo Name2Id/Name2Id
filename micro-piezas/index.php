@@ -25,44 +25,13 @@
         </div>
     </div>
 </div>
-<div class="container">
-    <div class="card">
-        <div class="contenido">
-            <h3>Funciones <i class="fa-solid fa-arrow-down"></i></h3>
-        </div>
-        <div class="contenido">
-            <div>
-                <figure>
-                    <h2>
-                        __construct ();
-                    </h2>
-                </figure>
-                <div class="contenido">
-                    <h2>
-                        __construir ();
-                    </h2>
-                </div>
-            </div>
-            <div>
-                <figure>
-                    <h2>
-                    incrementAndprintTheCounter ();
-                    </h2>
-                </figure>
-                <div class="contenido">
-                    <h2>
-                    incrementaEimprimeElContador ();
-                    </h2>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 <?php
 
 require './View/pages/Self.php';
 
 ?>
+
 <div class="container">
     <div class="card">
         <figure>
@@ -155,6 +124,41 @@ require './View/pages/Self.php';
         </div>
     </div>
 </div>
+
+<div class="container">
+    <div class="card">
+        <div class="contenido">
+            <h3>Funciones <i class="fa-solid fa-arrow-down"></i></h3>
+        </div>
+        <div class="contenido">
+            <div>
+                <figure>
+                    <h2>
+                        __construct ();
+                    </h2>
+                </figure>
+                <div class="contenido">
+                    <h2>
+                        __construir ();
+                    </h2>
+                </div>
+            </div>
+            <div>
+                <figure>
+                    <h2>
+                    incrementAndprintTheCounter ();
+                    </h2>
+                </figure>
+                <div class="contenido">
+                    <h2>
+                    incrementaEimprimeElContador ();
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <footer>
     <h3>
         &copy; Name2Id - RAMIRO G GONZALEZ - 2023 - <i class="fa-solid fa-infinity" style="color:gold;"></i>.
