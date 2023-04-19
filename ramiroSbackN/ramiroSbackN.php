@@ -162,12 +162,29 @@
         public function login ($json) {
             $datos = json_decode($json,true);
             if (
-                !isset($datos['user']) ||
+                !isset($datos['email']) ||
                 !isset($datos['password'])
             ) {
                 return $this->error_400 ();
             } else {
+                $email = $datos['email'];
+                $password = $datos['password'];
+                $datos = $this->getUserData ($email);
+                if ($datos) {
 
+                } else {
+                    return $this->error_200("El email $email no existe.!");
+                }
+            }
+        }
+
+        private function getUserData ($email) {
+            $query = "SELECT id,status,email,password FROM users WHERE email "."= '".$email."'";
+            $datos = $this->getData($query);
+            if ( isset($datos[0]['id']) ) {
+                return $datos;
+            } else {
+                return 0;
             }
         }
 
