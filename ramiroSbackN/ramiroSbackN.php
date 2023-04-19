@@ -160,7 +160,15 @@
         //||     ||     ||||||||            ||          ||  ||
 
         public function login ($json) {
-            
+            $datos = json_decode($json,true);
+            if (
+                !isset($datos['user']) ||
+                !isset($datos['password'])
+            ) {
+                return $this->error_400 ();
+            } else {
+
+            }
         }
 
     }
