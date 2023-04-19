@@ -27,6 +27,11 @@
             }
         }
 
+        /////////\      /\|||/\     ||||||||        /\|||/\
+        //      |\|     |     |         |           |     |
+        //      |\|     |=====|         |           |=====|
+        ///////\|/      |     |         |           |     |
+
         public function conectar () {
             $this->conexion = new mysqli (
                 $this->server,$this->user,$this->password,$this->database,$this->port
@@ -71,6 +76,12 @@
             }
         }
 
+        //||||      //||||      //||||      //|//|//|       //||||      //||||      //||||
+        //|         //|  |      //|  |      //|   //|       //|  |      //|         //|
+        //||||      //||||      //||||      //|   //|       //||||      //||||      //||||    
+        //|         //|\        //|\        //|   //|       //|\        //|            //| 
+        //||||      //| \       //| \       //|//|//|       //| \       //||||      //||||
+
         public function error_405 () {
             $this->response["status"] = "error";
             $this->response["result"] = [
@@ -97,6 +108,12 @@
             ];
             return $this->response;
         }
+
+        #\\     //      ##      //||||      #\\     /#\\     //     
+         #\\   //               //|          #\\   // #\\   //
+          #\\ //        #|      //||||        #\\ //   #\\ //
+           #\\/         #|      //|            #\\/     #\\/
+            //\\        #|      //||||          //\\     //\\
 
         private function colocarEsto (string $codigo) : string {
             return $codigo;
