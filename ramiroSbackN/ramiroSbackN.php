@@ -10,7 +10,7 @@
             private $database = null,
             private $port = null,
             private $conexion = null,
-            private $response = [
+            public $response = [
                 "status" => 'ok',
                 "result" => array()
             ]
@@ -113,6 +113,15 @@
             return $this->response;
         }
 
+        public function error_500 ($text = "INTERNAL SERVER ERROR CODE : 500") {
+            $this->response["status"] = "error";
+            $this->response["result"] = [
+                "error_id" => "500",
+                "error_msg" => $text
+            ];
+            return $this->response;
+        }
+
         #\\     //      ##      //||||      #\\     /#\\     //     
          #\\   //               //|          #\\   // #\\   //
           #\\ //        #|      //||||        #\\ //   #\\ //
@@ -178,7 +187,12 @@
                 if ($datos) {
                     if ($password == $datos[0]['password']) {
                         if ($datos[0]['status'] == "activado") {
+                            $verificarToken = $this->insertToken ($datos[0]['id']);
+                            if ($verificarToken) {
 
+                            } else {
+                                $this->error_500 ();
+                            }
                         } else {
                             return $this->error_200("user desactivado.!");
                         }
@@ -196,6 +210,22 @@
             $datos = $this->getData($query);
             if ( isset($datos[0]['id']) ) {
                 return $datos;
+            } else {
+                return 0;
+            }
+        }
+
+        private function insertToken ($id) {
+            $val = true;
+            $token = bin2hex (openssl_random_pseudo_bytes(
+                16,$val
+            ));
+            $date = date ("Y-m-d H:i");
+            $status = "activado";
+            $query = "INSERT INTO users (id,status,token,date)VALUES('id','status','token','date')";
+            $verificarQuery = $this->nonQuery ($query);
+            if ( $verificarQuery ) {
+                return $token;
             } else {
                 return 0;
             }

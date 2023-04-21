@@ -11,12 +11,12 @@
     $message = "hello world!<br>filas afectadas al insertar : 
     \$filasAfectadasAlInsertar<br>ultimo id insertado : \$ultimoIdInsertado";
     $rSbN->puntoDeEntrada (
-        '<div class="container">
+        '<div class="container card contenido noBorder">
                 <header>
-                    <h1><a href="./">ramiroSbackN</a></h1>
+                    <h1><a href="./" >ramiroSbackN</a></h1>
                 </header>
         </div>'.
-        '<div class="container">'.
+        '<div class="container card contenido noBorder">'.
             '<div id="main" class="container">'.$message.'</div>'.
             $rSbN->botonGrisConEfectoHover(
                 '<i class="fa-solid fa-fire"></i> '.
@@ -24,9 +24,9 @@
                 ' - obtener topics <i class="fa-solid fa-fire"></i>'
             ).
         '</div>'.
-        '<div class="container">
+        '<div class="container card contenido noBorder">
                 <footer>
-                    <h1><a href="./">ramiro 2(g) &copy; 2023.</a></h1>
+                    <h1>ramiro 2(g) &copy; 2023.</h1>
                 </footer>
         </div>'.
         '<script src="./javascript.js"></script>'
