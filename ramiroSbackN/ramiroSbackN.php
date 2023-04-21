@@ -189,7 +189,9 @@
                         if ($datos[0]['status'] == "activado") {
                             $verificarToken = $this->insertToken ($datos[0]['id']);
                             if ($verificarToken) {
-
+                                return $this->response['result'] = [
+                                    "token" => $verificarToken
+                                ];
                             } else {
                                 $this->error_500 ();
                             }
