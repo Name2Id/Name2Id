@@ -12,7 +12,14 @@
 
     } else {
 
-        print_r ( $rSbN->getData ("SELECT * FROM kftable_topics") );
+        #print_r ( $rSbN->getData ("SELECT * FROM kftable_topics") );
+        $data = $rSbN->getData ("SELECT * FROM kftable_topics");
+        for ($i = 0; $i < count($data); $i++) {
+            echo "<div class='container noBorder' style='width:30%;'><div class='card'>
+            <div class='contenido'>".$data[$i]['id']."</div>
+            <div class='contenido'>".$data[$i]['topic']."</div>
+            </div></div>";
+        }
 
     }
 

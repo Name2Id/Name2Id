@@ -8,12 +8,12 @@
         $ultimoIdInsertado = $rSbN->nonQueryId("INSERT INTO kftable_topics 
         (topic)VALUES('new topic family kids')");
     */
-    $message = "hello world!<br>filas afectadas al insertar : 
-    \$filasAfectadasAlInsertar<br>ultimo id insertado : \$ultimoIdInsertado";
+    $message = "ramiroSbackN";
     $rSbN->puntoDeEntrada (
         '<div class="container card contenido noBorder">
                 <header>
-                    <h1><a href="./" >ramiroSbackN</a></h1>
+                    <h1 style="padding:15px;border-radius:6px;"><a href="./"
+                     style="padding:15px;border-radius:6px;">HOME</a></h1>
                 </header>
         </div>'.
         '<div class="container card contenido noBorder">'.

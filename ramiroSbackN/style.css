@@ -20,13 +20,14 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    font-family: sans-serif;
-    background-color: var(--color-uno);
+    font-family: 'Bruno Ace SC', cursive;
+    background-color: var(--color-siete);
 }
 #ajax-button {
     box-shadow: 0px 1px 10px var(--color-dos);
     transition: all 400ms ease;
     cursor: pointer;
+    font-family: 'Sedgwick Ave Display', cursive;
 }
 /*
 este bloque de codigo fue reemplazado 
@@ -39,7 +40,6 @@ y optimizado en las lineas
 #ajax-button {
     padding: 10px;
     background-color: var(--color-cinco);
-    font-family: sans-serif;
     border: none;
     border-radius: 6px;
     color: var(--color-cuatro);
@@ -81,6 +81,7 @@ hijos de un elemento
 .card .contenido {
     padding: 15px;
     text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
 }
 .noBorder {
     border: none;

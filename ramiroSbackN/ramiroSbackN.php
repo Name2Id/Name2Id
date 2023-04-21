@@ -154,13 +154,19 @@
                 '6' => '    <meta name="viewport" content="width=device-width, initial-scale=1.0">',
                 '7' => '    <title>'.$title.'</title>',
                 '8' => '<link rel="stylesheet" href="./style.css">',
-                '9' => '</head>',
-                '10' => '<body>',
-                '11' => '<script src="https://kit.fontawesome.com/51765d8f2a.js" crossorigin="anonymous">
+                '9' => '<link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">',
+                '10' => '</head>',
+                '11' => '<body>',
+                '12' => '<script src="https://kit.fontawesome.com/51765d8f2a.js" crossorigin="anonymous">
                 </script>'
                 .$this->colocarEsto ($bodyContent),
-                '12' => '</body>',
-                '13' => '</html>'
+                '13' => '</body>',
+                '14' => '</html>'
             ];
             foreach ($boilerplate as $key => $value) {
                 echo $value;
@@ -190,6 +196,7 @@
                             $verificarToken = $this->insertToken ($datos[0]['id']);
                             if ($verificarToken) {
                                 return $this->response['result'] = [
+                                    "status" => "TODO BIEN",
                                     "token" => $verificarToken
                                 ];
                             } else {
