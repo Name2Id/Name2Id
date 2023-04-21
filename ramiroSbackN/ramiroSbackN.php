@@ -76,6 +76,10 @@
             }
         }
 
+        protected function encriptar ($string) {
+            return md5 ($string);
+        }
+
         //||||      //||||      //||||      //|//|//|       //||||      //||||      //||||
         //|         //|  |      //|  |      //|   //|       //|  |      //|         //|
         //||||      //||||      //||||      //|   //|       //||||      //||||      //||||    
@@ -169,9 +173,18 @@
             } else {
                 $email = $datos['email'];
                 $password = $datos['password'];
+                $password = $this->encriptar ($password);
                 $datos = $this->getUserData ($email);
                 if ($datos) {
+                    if ($password == $datos[0]['password']) {
+                        if ($datos[0]['status'] == "activado") {
 
+                        } else {
+                            return $this->error_200("user desactivado.!");
+                        }
+                    } else {
+                        return $this->error_200("Passwords no coinciden.!");
+                    }
                 } else {
                     return $this->error_200("El email $email no existe.!");
                 }
