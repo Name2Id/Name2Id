@@ -56,6 +56,15 @@ y optimizado en las lineas
     padding: 10px;
     margin: 10px;
 }
+.container__ {
+    transition: all 400ms ease;
+}
+.container__:hover {
+    transform: translateY(-3%);
+}
+.container__:hover .contenido {
+    font-size: 30px;
+}
 .card {
     width: 100%;
     overflow: hidden;
