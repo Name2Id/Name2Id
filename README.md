@@ -1,3 +1,6 @@
+<div>
+  <a href="https://name2id.github.io/NRR-frontend/">Entra aqui maspro</a>
+</div>
 <h1>Name2Id - crear y manejar tarjetas de presentación</h2>
 
 <h2>micro-piezas | index.php</h2>
